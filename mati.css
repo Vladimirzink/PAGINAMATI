@@ -52,3 +52,38 @@ h1{
     left: 0px;
     
 }
+.tiktok img{
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    left: 60px;
+
+}
+.instagram img{
+position: absolute;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    left: 160px;
+    top: 765px;
+}
+.youtube img{
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    left: 250px;
+    top: 730px;
+}
+
+
+.facebook img{
+    position: absolute;
+    display: flex;
+    height: 90px;
+    width: 90px;
+    left: 400px;
+    top: 760px;
+}
+
