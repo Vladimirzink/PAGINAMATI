@@ -1,99 +1,142 @@
-header{
-    display: flex;
-    background-color: #0F0F0F;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    justify-content: space-between;
-    width: 100%;
+body {
+    background-color: #31363F;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carrousel {
+    width: 1200px;
+    margin: auto;
+}
+
+.barranav {
+    width: auto;
+    height: 108px;
+    margin: auto;
+}
+
+.imagenlogo {
+    width: 400px;
     height: 100px;
-    align-items: center;
+    margin-top: -10px;
+    padding-left: 100px;
+}
+
+.tickets {
+    font-size: large;
+    padding-left: 200px;
+    font-weight: lighter;
+
+
+}
+
+.videos {
+    font-size: large;
+    font-weight: lighter;
+    padding-left: 40px;
+
+}
+
+.redes {
+    padding-left: 40px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.contactos {
+    padding-left: 40px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.titulos {
+    color: aliceblue;
+    text-align: center;
+    padding: 5%;
+    font-size: 60px;
+}
+
+.card-text {
     padding: 10px;
 }
 
-.logomati img{
-   height: 100px;
-   display: flex;
-   right: 30px;
+.row {
+    background-color: grey;
+    color: #f0f8ff;
+    border-radius: 30px;
+    width: 1200px;
+    margin: auto;
+    transition: all 0.25s ease-out;
 
 }
-.botonmenu img{
-    height: 45px;
-    display: flex;
-    padding: 50px;
-    cursor: pointer;
-}
-a{
-    text-decoration: none;
-    color: aliceblue;
-}
-nav a{
-    font-weight: 600;
-    padding-right: 100px;
- 
-}
-nav a:hover{
-    color: gray;
+
+.row:hover {
+    transform: scale(1.05);
+
 }
 
+.numfech {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
 
-body{
-background-color: #232D3F;
 }
 
-.mativector img{
-    height: 710px;
-    margin-left: auto;
-    padding: 8%;
-    display: flex;
-    position: absolute;
+.lugfech {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.botoncomp {
+    text-align: center;
+    padding: 30px 0 0 100px;
+
+}
+
+.titulovid{
+    color: aliceblue; 
+    text-align: center; 
+    padding: 3%; 
+    font-size: 70px;
+}
+.row.row-cols-1.row-cols-md-2.g-4{
+    background-color: #31363F;
+}
+.row.row-cols-1.row-cols-md-2.g-4:hover{
+    transform: scale(1);
+}
+.videoyou1:hover{
+    transform: scale(1.1);
+}
+
+.videoyou1{
+   margin: auto;
+   padding-left: 50px; 
+   transition: all 0.25s ease-out;
    
 }
-.tiktok img{
-    position: absolute;
-    display: flex;
-    height: 110px;
-    width: 110px;
-    left: 40px;
-    top: 740px;
-    cursor: pointer;
-    border: 30px;
-
+.videoyou2{
+    margin: auto;  
+    transition: all 0.25s ease-out; 
 }
-.instagram img{
- position: absolute;
-    display: flex;
-    height: 100px;
-    width: 110px;
-    left: 160px;
-    top: 750px;
-    cursor: pointer;
+.videoyou2:hover{
+    transform: scale(1.1);
 }
-.youtube img{
-    position: absolute;
-    display: flex;
-    height: 95px;
-    width: 95px;
-    left: 290px;
-    top: 750px;
-    cursor: pointer;
+.videoyou3{
+    margin: auto;
+    padding-left: 50px; 
+    transition: all 0.25s ease-out;
 }
-.facebook img{
-    position: absolute;
-    display: flex;
-    height: 115px;
-    width: 112px;
-    left: 400px;
-    top: 742px;
-    cursor: pointer;
+.videoyou3:hover{
+    transform: scale(1.1);
 }
-h1{
-    position: absolute;
-    color: aliceblue;
-    top: 850px;
-    padding:5%;
-    left: 33%;
-    text-align: center;
-    
-
+.videoyou4{
+    margin: auto;
+    transition: all 0.25s ease-out;
+}
+.videoyou4:hover{
+    transform: scale(1.1);
 }
