@@ -6,16 +6,22 @@ body {
 
 }
 
-.carrousel {
-    width: 1200px;
-    margin: auto;
-}
-
 .barranav {
     width: auto;
     height: 108px;
     margin: auto;
+    
+   
+   
 }
+.carrousel {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 0 0.5% 0 0.5%;
+}
+
+
 
 .imagenlogo {
     width: 400px;
@@ -69,6 +75,8 @@ body {
     width: 1200px;
     margin: auto;
     transition: all 0.25s ease-out;
+    padding: 0 0.5% 0 0.5%;
+    position: ;
 
 }
 
@@ -89,10 +97,16 @@ body {
     font-size: 30px;
     padding: 20px;
 }
-
+.letraboton{
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
 .botoncomp {
     text-align: center;
     padding: 30px 0 0 100px;
+    
 
 }
 
@@ -100,7 +114,7 @@ body {
     color: aliceblue; 
     text-align: center; 
     padding: 3%; 
-    font-size: 70px;
+    font-size: 50px;
 }
 .row.row-cols-1.row-cols-md-2.g-4{
     background-color: #31363F;
@@ -112,14 +126,21 @@ body {
     transform: scale(1.1);
 }
 
+iframe{
+    width: 500px;
+    height: 300px;
+}
+
 .videoyou1{
    margin: auto;
+   
    padding-left: 50px; 
    transition: all 0.25s ease-out;
    
 }
 .videoyou2{
-    margin: auto;  
+    margin: auto; 
+   
     transition: all 0.25s ease-out; 
 }
 .videoyou2:hover{
@@ -135,8 +156,270 @@ body {
 }
 .videoyou4{
     margin: auto;
+
     transition: all 0.25s ease-out;
 }
 .videoyou4:hover{
     transform: scale(1.1);
 }
+.form-floating.mb-3{
+    width: 900px;
+    margin: auto;
+}
+
+.form-floating{
+    width: 900px;
+    margin: auto;  
+    padding-bottom: 30px;  
+}
+
+
+.botonenviar {
+width: 130px;
+height: 60px;
+font-size: medium;
+background-color: #eef1f1;
+color: black;
+font-weight: bolder;
+border-radius: 10%;
+border-color: #000000;
+text-align: center;
+margin: auto  ;
+cursor: pointer;
+padding:auto
+;
+position:relative;
+
+
+}
+
+
+.blockquote{
+    margin: auto;
+    color: aliceblue;
+    font-size:small;
+    text-align: center;
+    
+}
+.blockquote-footer{
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.form-control{
+border-color: #000000;
+
+}
+
+
+.text-end{
+    padding: 60px 0 0 0;
+}
+
+
+@media screen and (max-width:450px) {
+
+    .barranav {
+        width: auto;
+        height: 108px;
+        margin: auto;
+        
+       
+       
+    }
+    .carrousel {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        padding: 0 0.5% 0 0.5%;
+    }
+    
+    
+    
+    .imagenlogo {
+        width: 250px;
+        height: 90px;
+        margin-top: -10px;
+        padding-left: 20px;
+        
+    }
+    
+    .tickets {
+        font-size: large;
+        padding-left: 40px;
+        font-weight: lighter;
+    
+    
+    }
+    
+    .videos {
+        font-size: large;
+        font-weight: lighter;
+        padding-left: 40px;
+        
+    
+    }
+    
+    .redes {
+        padding-left: 40px;
+        font-size: large;
+        font-weight: lighter;
+    }
+    
+    .contactos {
+        padding-left: 40px;
+        font-size: large;
+        font-weight: lighter;
+    }
+    
+    .titulos {
+        color: aliceblue;
+        text-align: center;
+        padding: 5%;
+        font-size: 60px;
+    }
+
+
+
+    .card-text {
+        padding: 10px;
+    }
+    
+    .row {
+        background-color: grey;
+        color: #f0f8ff;
+        border-radius: 30px;
+        width: 90%;
+        margin: auto;
+        transition: all 0.25s ease-out;
+        padding: 0 0.5% 0 0.5%;
+        
+    
+    }
+    
+    .row:hover {
+        transform: scale(1.05);
+    
+    }
+    
+    .numfech {
+        text-align: center;
+        font-size: 200%;
+        padding: 30px;
+    
+    }
+    
+    .lugfech {
+        text-align: center;
+        font-size: 150%;
+        padding: 20px;
+    }
+    .letraboton{
+        font-size: large;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .botoncomp {
+        text-align: center;
+        padding: 30px 0 0 100px;
+        
+    
+    }
+    .titulovid{
+        color: aliceblue; 
+        text-align: center; 
+        padding: 3%; 
+        font-size: 50px;
+    }
+    .row.row-cols-1.row-cols-md-2.g-4{
+        background-color: #31363F;
+    }
+    .row.row-cols-1.row-cols-md-2.g-4:hover{
+        transform: scale(1);
+    }
+    .videoyou1:hover{
+        transform: scale(1.1);
+    }
+    
+    .videoyou1{
+       margin: auto;
+       width: 30%;
+       padding: 2%;
+       transition: all 0.25s ease-out;
+       
+    }
+    .videoyou2{
+        margin: auto;  
+        transition: all 0.25s ease-out; 
+    }
+    .videoyou2:hover{
+        transform: scale(1.1);
+    }
+    .videoyou3{
+        margin: auto;
+        width: 150px;
+        height: 90px;
+        padding-left: 2%; 
+        transition: all 0.25s ease-out;
+    }
+    .videoyou3:hover{
+        transform: scale(1.1);
+    }
+    .videoyou4{
+        margin: auto;
+        transition: all 0.25s ease-out;
+    }
+    .videoyou4:hover{
+        transform: scale(1.1);
+    }
+    .form-floating.mb-3{
+        width: 900px;
+        margin: auto;
+    }
+    
+    .form-floating{
+        width: 900px;
+        margin: auto;    
+    }
+    
+    
+    .botonenviar {
+    width: 130px;
+    height: 60px;
+    font-size: medium;
+    background-color: #eef1f1;
+    color: black;
+    font-weight: bolder;
+    border-color: #000000;
+    text-align: center;
+        padding: 30px;
+    
+    }
+    
+    .blockquote{
+        margin: auto;
+        color: aliceblue;
+        font-size:small;
+        text-align: center;
+        
+    }
+    .blockquote-footer{
+        margin: auto;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+    .form-control{
+    border-color: #000000;
+    
+    }
+    
+    .text-end{
+        padding: 60px 0 0 0;
+    }
+    
+
+
+}  
