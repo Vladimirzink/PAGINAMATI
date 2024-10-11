@@ -6,28 +6,27 @@ body {
 
 }
 
+/*css de la barra*/
 .barranav {
     width: auto;
     height: 108px;
     margin: auto;
-    
-   
-   
 }
+
+/*carousel*/
 .carrousel {
-    width: 1200px;
+    width: 1000px;
     margin: auto;
     position: relative;
     padding: 0 0.5% 0 0.5%;
 }
 
-
-
+/*contenido de la barra */
 .imagenlogo {
-    width: 400px;
-    height: 100px;
+    width: 380px;
+    height: 90px;
     margin-top: -10px;
-    padding-left: 100px;
+    padding-left: 130px;
 }
 
 .tickets {
@@ -57,6 +56,7 @@ body {
     font-weight: lighter;
 }
 
+/*todos los titulos*/
 .titulos {
     color: aliceblue;
     text-align: center;
@@ -64,215 +64,287 @@ body {
     font-size: 60px;
 }
 
-.card-text {
-    padding: 10px;
-}
+/*box de shows */
 
-.row {
+.box {
+    padding: 10px;
     background-color: grey;
     color: #f0f8ff;
-    border-radius: 30px;
-    width: 1200px;
-    margin: auto;
-    transition: all 0.25s ease-out;
-    padding: 0 0.5% 0 0.5%;
-    position: ;
-
-}
-
-.row:hover {
-    transform: scale(1.05);
-
+    border-radius: 20px;
+    margin: 10px auto 0 auto;
+    width: 1000px;
+    height: 80px;
 }
 
 .numfech {
+    font-size: 34px;
+    color: aliceblue;
+    font-weight: 900;
+    line-height: 44px;
     text-align: center;
-    font-size: 30px;
-    padding: 30px;
+    margin-right: 64px;
+    padding-right: 34px;
+    border-right: 5px solid #4d4c4c;
+    text-transform: uppercase;
+    list-style-type: none;
 
 }
 
 .lugfech {
+    font-size: 28px;
+    color: aliceblue;
+    font-weight: 700;
+    line-height: 26px;
     text-align: center;
-    font-size: 30px;
-    padding: 20px;
+    border-right: 5px solid #4d4c4c;
+    padding-right: 65px;
+
 }
-.letraboton{
-    font-size: large;
+
+.lugfech2 {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 400;
+    line-height: 26px;
     text-align: center;
-    padding: 10px;
-    margin: auto;
+    border-right: 5px solid #4d4c4c;
+    padding-right: 65px;
 }
+
+/*boton comprar entradas*/
+.letraboton {
+    text-align: center;
+
+}
+
 .botoncomp {
+    width: 160px;
+    height: 52px;
+    font-size: medium;
+    background-color: #d4d4d4;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10%;
+    border-color: #000000;
     text-align: center;
-    padding: 30px 0 0 100px;
-    
+    margin: auto;
+    cursor: pointer;
+    padding: auto;
+    position: relative;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    transition: all 0.25s ease-out;
 
 }
 
-.titulovid{
-    color: aliceblue; 
-    text-align: center; 
-    padding: 3%; 
+.botoncomp:hover {
+    transform: scale(1.05);
+}
+
+/*TITULOS*/
+.titulovid {
+    color: aliceblue;
+    text-align: center;
+    padding: 3%;
     font-size: 50px;
 }
-.row.row-cols-1.row-cols-md-2.g-4{
+
+/*VIDEOS YOUTUBE*/
+.row.row-cols-1.row-cols-md-2.g-4 {
     background-color: #31363F;
 }
-.row.row-cols-1.row-cols-md-2.g-4:hover{
+
+.row.row-cols-1.row-cols-md-2.g-4:hover {
     transform: scale(1);
 }
-.videoyou1:hover{
+
+.videoyou1:hover {
     transform: scale(1.1);
 }
 
-iframe{
+iframe {
     width: 500px;
     height: 300px;
 }
 
-.videoyou1{
-   margin: auto;
-   
-   padding-left: 50px; 
-   transition: all 0.25s ease-out;
-   
-}
-.videoyou2{
-    margin: auto; 
-   
-    transition: all 0.25s ease-out; 
-}
-.videoyou2:hover{
-    transform: scale(1.1);
-}
-.videoyou3{
-    margin: auto;
-    padding-left: 50px; 
+.videoyou1 {
+    margin: auto 350px;
+    padding-left: 90px;
     transition: all 0.25s ease-out;
+
 }
-.videoyou3:hover{
-    transform: scale(1.1);
-}
-.videoyou4{
+
+.videoyou2 {
     margin: auto;
 
     transition: all 0.25s ease-out;
 }
-.videoyou4:hover{
+
+.videoyou2:hover {
     transform: scale(1.1);
 }
-.form-floating.mb-3{
+
+.videoyou3 {
+    margin: auto 350px;
+    padding-left: 90px;
+    transition: all 0.25s ease-out;
+}
+
+.videoyou3:hover {
+    transform: scale(1.1);
+}
+
+.videoyou4 {
+    margin: auto;
+
+    transition: all 0.25s ease-out;
+}
+
+.videoyou4:hover {
+    transform: scale(1.1);
+}
+
+.form-floating.mb-3 {
     width: 900px;
     margin: auto;
 }
 
-.form-floating{
+.form-floating {
     width: 900px;
-    margin: auto;  
-    padding-bottom: 30px;  
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 
 .botonenviar {
-width: 130px;
-height: 60px;
-font-size: medium;
-background-color: #eef1f1;
-color: black;
-font-weight: bolder;
-border-radius: 10%;
-border-color: #000000;
-text-align: center;
-margin: auto  ;
-cursor: pointer;
-padding:auto
-;
-position:relative;
+    width: 130px;
+    height: 50px;
+    font-size: medium;
+    background-color: #eef1f1;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10%;
+    border-color: #000000;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    padding: auto;
+    position: relative;
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    transition: all 0.25s ease-out;
+}
+
+.botonenviar:hover {
+    transform: scale(1.05);
+}
+
+/*REDES SOCIALES*/
+
+.button {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.button a {
+    font-size: 28px;
+    text-decoration: none;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #000000;
+    color: #eef1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all 0.25s ease-out;
 
 
 }
 
+.button a:hover {
+    transform: scale(1.05);
+}
 
-.blockquote{
+/* formulario*/
+.blockquote {
     margin: auto;
     color: aliceblue;
-    font-size:small;
+    font-size: small;
     text-align: center;
-    
+
 }
-.blockquote-footer{
+
+.blockquote-footer {
     margin: auto;
     color: aliceblue;
     text-align: center;
-    
-}
-.form-control{
-border-color: #000000;
 
 }
 
+.form-control {
+    border-color: #000000;
 
-.text-end{
+}
+
+
+.text-end {
     padding: 60px 0 0 0;
 }
 
 
-@media screen and (max-width:450px) {
-
+@media (min-width: 320px) and (max-width: 480px) {
     .barranav {
         width: auto;
         height: 108px;
         margin: auto;
-        
-       
-       
     }
+
     .carrousel {
-        width: 90%;
+        width: 95%;
         margin: auto;
         position: relative;
         padding: 0 0.5% 0 0.5%;
     }
-    
-    
-    
+
+
+
     .imagenlogo {
         width: 250px;
         height: 90px;
         margin-top: -10px;
         padding-left: 20px;
-        
     }
-    
+
     .tickets {
         font-size: large;
         padding-left: 40px;
         font-weight: lighter;
-    
-    
     }
-    
+
     .videos {
         font-size: large;
         font-weight: lighter;
         padding-left: 40px;
-        
-    
     }
-    
+
     .redes {
         padding-left: 40px;
         font-size: large;
         font-weight: lighter;
     }
-    
+
     .contactos {
         padding-left: 40px;
         font-size: large;
         font-weight: lighter;
     }
-    
+
     .titulos {
         color: aliceblue;
         text-align: center;
@@ -280,146 +352,170 @@ border-color: #000000;
         font-size: 60px;
     }
 
-
-
-    .card-text {
-        padding: 10px;
-    }
-    
-    .row {
+    .box {
+        padding: 18px 24px;
         background-color: grey;
         color: #f0f8ff;
-        border-radius: 30px;
-        width: 90%;
-        margin: auto;
-        transition: all 0.25s ease-out;
-        padding: 0 0.5% 0 0.5%;
-        
-    
+        border-radius: 20px;
+        margin: 10px auto 0 auto;
+        width: 400px;
+        height: 130px;
+        flex-direction: column;
+        display: flex
     }
-    
-    .row:hover {
-        transform: scale(1.05);
-    
-    }
-    
+
     .numfech {
-        text-align: center;
-        font-size: 200%;
-        padding: 30px;
-    
-    }
-    
-    .lugfech {
-        text-align: center;
-        font-size: 150%;
-        padding: 20px;
-    }
-    .letraboton{
-        font-size: large;
-        text-align: center;
-        padding: 10px;
+        font-size: 24px;
+        color: aliceblue;
+        font-weight: 900;
+        line-height: 24px;
+        /*text-align: center;*/
+        /*margin-right: 124px;
+        padding-right: 100px;*/
+        padding-bottom: 0;
         margin: auto;
+        text-transform: uppercase;
+        list-style-type: none;
+
     }
-    .botoncomp {
+
+    .lugfech {
+        justify-content: center;
+        font-size: 24px;
+        color: aliceblue;
+        font-weight: 700;
         text-align: center;
-        padding: 30px 0 0 100px;
-        
-    
+
+        margin-top: -10px;
+
     }
-    .titulovid{
-        color: aliceblue; 
-        text-align: center; 
-        padding: 3%; 
-        font-size: 50px;
+
+    .lugfech2 {
+        font-size: 13px;
+        color: aliceblue;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        border-right: 5px solid #4d4c4c;
+        padding-right: 65px;
     }
-    .row.row-cols-1.row-cols-md-2.g-4{
+
+    /*boton comprar entradas*/
+    .letraboton {
+        text-align: center;
+
+    }
+
+    .botoncomp {
+        width: 300px;
+        height: 40px;
+        font-size: medium;
+        background-color: #d4d4d4;
+        color: black;
+        font-weight: bolder;
+        border-radius: 10%;
+        border-color: #000000;
+        text-align: center;
+        margin: 0 auto;
+        cursor: pointer;
+        padding: auto;
+        position: relative;
+        box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+        -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+        -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.65);
+    }
+
+    .titulovid {
+        color: aliceblue;
+        text-align: center;
+        padding: 3%;
+        font-size: 30px;
+    }
+
+    .row.row-cols-1.row-cols-md-2.g-4 {
         background-color: #31363F;
     }
-    .row.row-cols-1.row-cols-md-2.g-4:hover{
+
+    .row.row-cols-1.row-cols-md-2.g-4:hover {
         transform: scale(1);
     }
-    .videoyou1:hover{
+
+    .videoyou1:hover {
         transform: scale(1.1);
     }
-    
-    .videoyou1{
-       margin: auto;
-       width: 30%;
-       padding: 2%;
-       transition: all 0.25s ease-out;
-       
+
+    iframe {
+        width: 300px;
+        height: 200px;
     }
-    .videoyou2{
-        margin: auto;  
-        transition: all 0.25s ease-out; 
-    }
-    .videoyou2:hover{
-        transform: scale(1.1);
-    }
-    .videoyou3{
+
+    .videoyou1 {
         margin: auto;
-        width: 150px;
-        height: 90px;
-        padding-left: 2%; 
-        transition: all 0.25s ease-out;
+        padding-left: 10%;
     }
-    .videoyou3:hover{
-        transform: scale(1.1);
-    }
-    .videoyou4{
+
+    .videoyou2 {
         margin: auto;
-        transition: all 0.25s ease-out;
+        padding: 10%;
     }
-    .videoyou4:hover{
-        transform: scale(1.1);
+
+    .videoyou3 {
+        margin: auto;
+        padding-left: 10%;
     }
-    .form-floating.mb-3{
-        width: 900px;
+
+    .videoyou4 {
+        margin: auto;
+        padding: 10%;
+    }
+
+
+    .form-floating.mb-3 {
+        width: 90%;
         margin: auto;
     }
-    
-    .form-floating{
-        width: 900px;
-        margin: auto;    
+
+    .form-floating {
+        width: 90%;
+        margin: auto;
     }
-    
-    
+
     .botonenviar {
-    width: 130px;
-    height: 60px;
-    font-size: medium;
-    background-color: #eef1f1;
-    color: black;
-    font-weight: bolder;
-    border-color: #000000;
-    text-align: center;
-        padding: 30px;
-    
+        width: 130px;
+        height: 60px;
+        font-size: medium;
+        background-color: #eef1f1;
+        color: black;
+        font-weight: bolder;
+        border-color: #000000;
+        text-align: center;
+        padding: 10px;
     }
-    
-    .blockquote{
+
+    .blockquote {
         margin: auto;
         color: aliceblue;
-        font-size:small;
+        font-size: small;
         text-align: center;
-        
+
     }
-    .blockquote-footer{
+
+    .blockquote-footer {
         margin: auto;
         color: aliceblue;
         text-align: center;
-        
+
     }
-    .form-control{
-    border-color: #000000;
-    
+
+    .form-control {
+        border-color: #000000;
+
     }
-    
-    .text-end{
+
+    .text-end {
         padding: 60px 0 0 0;
     }
-    
 
 
-}  
+
+}
